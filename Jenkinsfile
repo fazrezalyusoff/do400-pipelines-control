@@ -1,4 +1,4 @@
-node('nodejs){
+node('nodejs'){
 	stage('Checkout'){
 		git branch: 'main', url: 'https://github.com/fazrezalyusoff/do400-pipelines-control'
 	}
